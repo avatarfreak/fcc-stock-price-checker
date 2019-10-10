@@ -58,10 +58,17 @@ I can **GET** `/api/stock-prices` with form data containing a Nasdaq stock ticke
 
 ```
 ├── assertion-analyser.js
+├── controllers
+│   └── stockHandler.js
+├── db
+│   └── mongoose.js
+├── favicon.ico
+├── models
+│   └── stockModel.js
 ├── package.json
 ├── package-lock.json
 ├── public
-│   ├── form.js
+│   ├── from.js
 │   └── style.css
 ├── README.md
 ├── routes
@@ -73,8 +80,7 @@ I can **GET** `/api/stock-prices` with form data containing a Nasdaq stock ticke
 │   ├── 1_unit-tests.js
 │   └── 2_functional-tests.js
 └── views
-    ├── index.html
-    └── issue.html
+    └── index.html
 ```
 
 ## Installing:
